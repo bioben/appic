@@ -70,6 +70,8 @@ public class CancerSubtype {
 
             lineCount++;
         }
+
+        sc.close();
     }
 
     /*
@@ -109,6 +111,8 @@ public class CancerSubtype {
 
             lineCount++;
         }
+
+        sc.close();
     }
 
     /*
@@ -116,7 +120,6 @@ public class CancerSubtype {
     */
     public static void main(String args[]) throws FileNotFoundException {
         CancerSubtype breastMMR = new CancerSubtype("breast", "brca_MMRdeficient");
-        ArrayList<Gene> myGeneSet = breastMMR.geneSet;
         System.out.println(breastMMR.geneInteractions);
     }
 
