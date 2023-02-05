@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.Scanner;
-import java.io.FileNotFoundException;
-import testing;
 
 public class CancerSubtype {
 

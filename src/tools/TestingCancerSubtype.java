@@ -35,5 +35,9 @@ public class TestingCancerSubtype {
         HumanProteinAtlasAPI myHPACaller = new HumanProteinAtlasAPI("json");
         JSONArray geneInfoAboutASingleGene = myHPACaller.getRequest(firstGeneName, "g");
         System.out.println(geneInfoAboutASingleGene);
+
+
+        GProfilerAPI myGProfilerCaller = new GProfilerAPI();
+        myGProfilerCaller.getRequest(myGeneSet);
     }
 }

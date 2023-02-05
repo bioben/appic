@@ -7,7 +7,7 @@ import org.json.simple.*;
 import org.json.simple.parser.JSONParser;
 import java.util.ArrayList;
 import java.net.http.HttpRequest.BodyPublishers;
-aSDF
+
 /*
 * This class will send a get request to the Human Protein Atlas API
 *
